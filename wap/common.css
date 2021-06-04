@@ -1,0 +1,238 @@
+body{
+    font-family:microsoft yahei,tahoma,verdana,arial,sans-serif;
+    background:#dad1d1 url(bj.png) center bottom no-repeat;
+    background-size:contain;
+    font-size:15px;
+    max-width:100%;
+    margin:0 auto
+}
+ul,li{
+    list-style:none;
+    padding:0;
+    margin:0
+}
+i{
+    font-style:normal
+}
+.mui-bar-nav{
+    background-color:#000;
+    height:55px
+}
+.mui-bar .mui-title{
+    color:#fff;
+    font-size:15px;
+    text-align:right;
+    background:url(logo.png) left top no-repeat;
+    background-size:contain;
+    left:8px;
+    right:8px;
+    top:5px
+}
+.mui-bar .mui-btn-link{
+    color:#fff;
+    font-size:13px
+}
+.mui-bar-nav~.mui-content{
+    padding-top:0
+}
+.mui-content{
+    background:0 0
+}
+.topcon{
+    /*padding-top:.3rem;*/
+    width:95%;
+    margin:0 auto;
+    padding-bottom:.1rem
+}
+.xianlulist{
+	
+    margin-bottom:.3rem
+}
+.slidercon{
+    width:85%;
+    height:3.1rem;
+    background:url(phone.png) center top no-repeat;
+    background-size:contain;
+    float:right;
+    padding:.31rem .11rem;
+    padding-left:.1rem
+}
+@font-face{
+    font-family:iconfont;
+    src:url(iconfont.ttf) format('truetype')
+}
+.iconfont{
+    font-family:iconfont!important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing:antialiased;
+    -webkit-text-stroke-width:.2px
+}
+h3,h4{
+    text-align:center
+}
+h3{
+    margin-top:20px;
+    font-size:.2rem
+}
+h4{
+    font-weight:400;
+    padding:.02rem 0;
+    font-size:.12rem
+}
+.erweima{
+    width:60%;
+    margin:0 auto;
+    padding:.03rem;
+    background:url(QR_line.png) center center no-repeat;
+    background-size:contain
+}
+.erweima img{
+    width:100%
+}
+.downlink{
+    padding-bottom:20px
+}
+.downlink a{
+    width:60%;
+    display:block;
+    margin:0 auto;
+    height:.35rem;
+    margin-top:.05rem;
+    line-height:.35rem;
+    text-align:center;
+    font-size:.13rem
+}
+.downlink a i{
+    font-style:normal;
+    font-size:.17rem
+}
+a.ios{
+    background:url(android_down_btn.png) center center no-repeat;
+    background-size:contain;
+    color:#fff
+}
+a.android{
+    background:url(ios_down_btn.png) center center no-repeat;
+    background-size:contain;
+    color:#fff
+}
+.xianlutit{
+    font-size:.18rem;
+    color:#000;
+    text-align:center
+}
+.xianludot{
+    background:#ecbb51;
+    width:.23rem;
+    height:.05rem;
+    margin:.08rem auto;
+    border-radius:.025rem
+}
+.xianlulist ul li{
+    list-style:none;
+    border-radius:19px;
+    margin:8px 0;
+    overflow:hidden;
+    text-align:center
+}
+.xianlulist ul li a{
+    padding:.08rem 0;
+    font-size:.13rem;
+    line-height:.2rem;
+    color:#373737;
+    overflow:hidden
+}
+.xianlulist ul li a.czzx{
+    color:#e9280d
+}
+.xianlulist ul li a{
+    background:#fff;
+    width:90%;
+    display:inline-block;
+    border:1px solid #ddd;
+    border-radius:.16rem
+}
+.xianlulist ul li a i{
+    display:inline-block;
+    height:.2rem;
+    width:.2rem
+}
+.xianlulist ul li a i.dlxianlu{
+    background:url(cn.png) left center no-repeat;
+    background-size:contain;
+    float:left;
+    margin-left:8px
+}
+.xianlulist ul li a i.twxianlu{
+    background:url(mc.png) left center no-repeat;
+    background-size:contain;
+    float:left;
+    margin-left:8px
+}
+.xianlulist ul li a i.amxianlu{
+    background:url(tw.png) left center no-repeat;
+    background-size:contain;
+    float:left;
+    margin-left:8px
+}
+.xianlulist ul li a i.hwxianlu{
+    background:url(other.png) left center no-repeat;
+    background-size:contain;
+    float:left;
+    margin-left:8px
+}
+.xianlulist ul li a i.hkxianlu{
+    background:url(hk.png) left center no-repeat;
+    background-size:contain;
+    float:left;
+    margin-left:8px
+}
+.xianlulist ul li a i.rbxianlu{
+    background:url(rb.png) left center no-repeat;
+    background-size:contain;
+    float:left;
+    margin-left:8px
+}
+.xianlulist ul li a i.czcenter{
+    background:url(charge.png) left center no-repeat;
+    background-size:contain;
+    float:left;
+    margin-left:8px
+}
+.xianlulist ul li a i.dazhuanpan{
+    background:url(zp.png) left center no-repeat;
+    background-size:contain;
+    float:left;
+    margin-left:8px
+}
+.xianlulist ul li a i.zajindan{
+    background:url(zd.png) left center no-repeat;
+    background-size:contain;
+    float:left;
+    margin-left:8px
+}
+.xianlulist ul li a i.hongbao{
+    background:url(hb.png) left center no-repeat;
+    background-size:contain;
+    float:left;
+    margin-left:8px
+}
+.footer{
+    margin-top:.45rem;
+    height:.28rem;
+    line-height:.23rem
+}
+.footer p{
+    text-align:center;
+    font-size:.12rem
+}
+.footer p span{
+    display:inline-block;
+    width:.18rem;
+    height:.18rem;
+    background:url(end_logo.png) center center no-repeat;
+    background-size:contain;
+    margin-right:.03rem;
+    margin-bottom:-.03rem
+}
