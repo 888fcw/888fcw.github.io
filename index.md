@@ -21,15 +21,15 @@
 <body>
 	<div class="top-bar-guidance">
 		<p>
-			µã»÷ÓÒÉÏ½Ç<img src="12.png" class="icon-safari"/> Safari´ò¿ª
+			ç‚¹å‡»å³ä¸Šè§’<img src="12.png" class="icon-safari"/> Safariæ‰“å¼€
 		</p>
 		<p>
-			¿ÉÒÔ¼ÌĞø·ÃÎÊ±¾Õ¾Å¶~
+			å¯ä»¥ç»§ç»­è®¿é—®æœ¬ç«™å“¦~
 		</p>
 	</div>
 	<a class="" id="BtnClick" href="javascript:;">  </a>
 	<script>
-		var url = 'pc';//¸ü¸ÄĞèÒªÌø×ªµÄµØÖ·
+		var url = 'pc';//æ›´æ”¹éœ€è¦è·³è½¬çš„åœ°å€
 		document.querySelector('body').addEventListener('touchmove', function (event) {
 			event.preventDefault();
 		});
